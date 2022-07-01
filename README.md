@@ -32,9 +32,10 @@
 <!-- Description -->
 ## Description
 
-Hey! Welcome to Nitro Notes! This is just a on the go notes taking web application I built from learning React.js.
+Hey! Welcome to Nitro Notes! This is just an on the go notes taking web application I built from learning React.js.
 
-This web app uses Node.js for backend. I have used Express.js for serving static files, using middlewares and generating URL's for blogs with routes. The main part of the app is based on EJS, which is a template engine. As soon as you publish the blog, it gets saved on the MongoDB database with Mongoose and a new `div` is generated for your blogs. A new URL is also generated, as `/posts/your-title` by which you can access your blog. The compose blog page can be found at `/compose/`. All the blogs are saved on a MongoDB database, which is served with MongoDB Atlas service. All these CRUD operations are carried out on MongoDB with Mongoose.
+This web app uses Node.js for backend. The main part of the app is based on React.js, which is a javascript library. As soon as you publish the note by clicking on the `+` button it gets displayed on the homepage. If you have completed the task you can use the `Delete icon` button to delete the note. 
+Have fun while using it! :)
 
 <!-- Technologies -->
 
